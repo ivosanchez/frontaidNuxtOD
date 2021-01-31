@@ -1,11 +1,13 @@
 {
   "name": "example-nested-components",
   "dependencies": {
-    "nuxt": "latest"
+    "@nuxt/content": "1.12.0",
+    "nuxt": "2.14.12"
   },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
+    "generate": "nuxt generate",
     "start": "nuxt start",
     "post-update": "yarn upgrade --latest"
   }

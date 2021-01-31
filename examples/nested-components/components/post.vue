@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .main {
   font: 15px Helvetica, Arial;
-  border: 1px solid #eee;
+  border: 1px solid rgb(124, 8, 8);
   padding: 0 10px;
 }
 .title {
