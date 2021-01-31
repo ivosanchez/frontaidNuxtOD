@@ -6,7 +6,8 @@
 
 <style scoped>
 .p {
-  font: 13px Helvetica, Arial;
+  font-size: 1rem;
+  font-family: Oxygen, Helvetica, sans-serif ;
   margin: 10px 0;
 }
 </style>

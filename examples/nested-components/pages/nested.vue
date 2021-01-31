@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="main">
+  <main>
     <Post title="My first blog post">
       <VP>Hello there</VP>
       <VP>This is an example of a componentized blog post</VP>
@@ -18,7 +18,7 @@
     <Post title="The final blog post">
       <VP>C'est la fin !</VP>
     </Post>
-  </div>
+  </main>
 </template>
 
 <script>
@@ -36,10 +36,12 @@ export default {
 </script>
 
 <style scoped>
-.main {
+main {
   margin: auto;
   max-width: 420px;
   padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .hr {
   width: 100px;

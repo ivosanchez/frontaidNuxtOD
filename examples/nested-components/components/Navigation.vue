@@ -4,6 +4,9 @@
       <li>
         <nuxt-link to="/">{{ content.index.title }}</nuxt-link>
       </li>
+      <li>
+        <nuxt-link to="/nested">nested</nuxt-link>
+      </li>
       <li
         v-for="page in content.pages" :key="page.title">
         <nuxt-link :to="page.path">{{ page.title }}</nuxt-link>
@@ -27,9 +30,6 @@ export default {
 
 <style scoped>
 
-
-
-
   nav ul {
     display: flex;
     justify-content: space-between;
@@ -41,10 +41,6 @@ export default {
     font-family: 'Optician Sans', 'Ubuntu', sans-serif;
     outline: 1px solid blue;
     border-radius: 5px ;
-
   }
-
-
-
 
 </style>

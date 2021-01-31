@@ -19,9 +19,13 @@ export default {
 </script>
 
 <style scoped>
+h1{
+  font-family: Oxygen;
+}
 .main {
-  font: 15px Helvetica, Arial;
-  border: 1px solid rgb(124, 8, 8);
+  font: 15px Oxygen, Arial;
+  border: 1px solid rgb(41, 228, 24);
+  background: rgba(26, 233, 33, 0.2);
   padding: 0 10px;
 }
 .title {
